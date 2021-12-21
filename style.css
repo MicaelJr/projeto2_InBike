@@ -1,0 +1,213 @@
+
+body {
+    background-image: linear-gradient(to bottom right, #f6f478, #036BF8);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 0.90rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.main2 {
+    min-height: 300px;
+    padding-top: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between; /*alinhar os box dos cards na margem*/
+    text-align: center;
+}
+
+.card1 {
+    background-image: url(imgs/img-02.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.card2 {
+    background-image: url(imgs/img-03.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.card3 {
+    background-image: url(imgs/img-04.png);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 30px;
+    min-height: 250px;
+    width: 30%;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.295);
+}
+
+.box1 {
+    width: 50%;
+    flex: 2;
+    padding-right: 100px;
+}
+
+.box2 {
+    width: 50%;
+    flex: 1;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 1rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.377); /*Este é o meu style de sombra*/
+}
+p{
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+h2 {
+    font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
+    margin: 25px;
+}
+.cards p {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin: 10px 30px 20px 30px;
+}
+
+/*Este é o meu style de botão*/
+.mybutton {
+    background-color: white;
+    color: rgb(10, 47, 255);
+    padding: 11px 25px;
+    border-radius: 0px 15px 0px 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.295); /*Este é o meu style de sombra*/
+}
+
+.mybutton:hover{
+    background-color: rgb(38, 38, 240);
+    color: white;
+    transition-duration: 1s;
+}
+
+a.mybutton{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+nav a.mybutton {
+    margin-left: 20px;
+}
+.navbutton{
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.testemunhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.tbox {
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white;
+    box-sizing: border-box; /*respeitar o width;*/
+    margin-top: 50px;
+}
+
+/*.tbox :first-child {
+    font-size: 0.6rem;
+}*/
+
+.tbox p:last-of-type {
+    font-size: .6rem;
+    padding-left: 30px; /*mexer somente em uma tag dentro da div;*/
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.navbutton:hover .dropdown {
+    display: block;
+    
+}
+
+.dropdown .navbutton {
+    width: 120px;
+    background-color: rgba(43, 43, 138, 0.938);
+}
+
+.inputwrapper {
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box; /*limitar os box do formulario dentro da div;*/
+}
+
+.newline {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.margin-right-a {
+    margin-right: 10px;
+}
+
+input[type=radio] {
+    margin-right: 10px;
+}
+
+form {
+    margin:40px 0px;  
+
+}
+
+
+
